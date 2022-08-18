@@ -1,0 +1,16 @@
+execute if score #hp damage.value matches 240 run attribute @s generic.max_health modifier add 1-9-1-7-114514 "customdamage" -24.0 add
+execute if score #hp damage.value matches 241 run attribute @s generic.max_health modifier add 1-9-1-7-114514 "customdamage" -24.1 add
+execute if score #hp damage.value matches 242 run attribute @s generic.max_health modifier add 1-9-1-7-114514 "customdamage" -24.2 add
+execute if score #hp damage.value matches 243 run attribute @s generic.max_health modifier add 1-9-1-7-114514 "customdamage" -24.3 add
+execute if score #hp damage.value matches 244 run attribute @s generic.max_health modifier add 1-9-1-7-114514 "customdamage" -24.4 add
+execute if score #hp damage.value matches 245 run attribute @s generic.max_health modifier add 1-9-1-7-114514 "customdamage" -24.5 add
+execute if score #hp damage.value matches 246 run attribute @s generic.max_health modifier add 1-9-1-7-114514 "customdamage" -24.6 add
+execute if score #hp damage.value matches 247 run attribute @s generic.max_health modifier add 1-9-1-7-114514 "customdamage" -24.7 add
+execute if score #hp damage.value matches 248 run attribute @s generic.max_health modifier add 1-9-1-7-114514 "customdamage" -24.8 add
+execute if score #hp damage.value matches 249 run attribute @s generic.max_health modifier add 1-9-1-7-114514 "customdamage" -24.9 add
+execute if score #hp damage.value matches 250 run attribute @s generic.max_health modifier add 1-9-1-7-114514 "customdamage" -25.0 add
+execute if score #hp damage.value matches 251 run attribute @s generic.max_health modifier add 1-9-1-7-114514 "customdamage" -25.1 add
+execute if score #hp damage.value matches 252 run attribute @s generic.max_health modifier add 1-9-1-7-114514 "customdamage" -25.2 add
+execute if score #hp damage.value matches 253 run attribute @s generic.max_health modifier add 1-9-1-7-114514 "customdamage" -25.3 add
+execute if score #hp damage.value matches 254 run attribute @s generic.max_health modifier add 1-9-1-7-114514 "customdamage" -25.4 add
+execute if score #hp damage.value matches 255 run attribute @s generic.max_health modifier add 1-9-1-7-114514 "customdamage" -25.5 add

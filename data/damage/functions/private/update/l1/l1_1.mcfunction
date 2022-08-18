@@ -1,0 +1,16 @@
+execute if score #hp damage.value matches 256..272 run function damage:private/update/l0/l0_16
+execute if score #hp damage.value matches 272..288 run function damage:private/update/l0/l0_17
+execute if score #hp damage.value matches 288..304 run function damage:private/update/l0/l0_18
+execute if score #hp damage.value matches 304..320 run function damage:private/update/l0/l0_19
+execute if score #hp damage.value matches 320..336 run function damage:private/update/l0/l0_20
+execute if score #hp damage.value matches 336..352 run function damage:private/update/l0/l0_21
+execute if score #hp damage.value matches 352..368 run function damage:private/update/l0/l0_22
+execute if score #hp damage.value matches 368..384 run function damage:private/update/l0/l0_23
+execute if score #hp damage.value matches 384..400 run function damage:private/update/l0/l0_24
+execute if score #hp damage.value matches 400..416 run function damage:private/update/l0/l0_25
+execute if score #hp damage.value matches 416..432 run function damage:private/update/l0/l0_26
+execute if score #hp damage.value matches 432..448 run function damage:private/update/l0/l0_27
+execute if score #hp damage.value matches 448..464 run function damage:private/update/l0/l0_28
+execute if score #hp damage.value matches 464..480 run function damage:private/update/l0/l0_29
+execute if score #hp damage.value matches 480..496 run function damage:private/update/l0/l0_30
+execute if score #hp damage.value matches 496..512 run function damage:private/update/l0/l0_31

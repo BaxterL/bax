@@ -1,0 +1,344 @@
+{
+    "criteria": {
+        "id_1": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.id_1\"]}"
+                }
+            }
+        },
+        "id_2": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.id_2\"]}"
+                }
+            }
+        },
+        "id_4": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.id_4\"]}"
+                }
+            }
+        },
+        "id_8": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.id_8\"]}"
+                }
+            }
+        },
+        "id_16": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.id_16\"]}"
+                }
+            }
+        },
+        "id_32": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.id_32\"]}"
+                }
+            }
+        },
+        "id_64": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.id_64\"]}"
+                }
+            }
+        },
+        "id_128": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.id_128\"]}"
+                }
+            }
+        },
+        "id_256": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.id_256\"]}"
+                }
+            }
+        },
+        "id_512": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.id_512\"]}"
+                }
+            }
+        },
+        "id_1024": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.id_1024\"]}"
+                }
+            }
+        },
+        "id_2048": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.id_2048\"]}"
+                }
+            }
+        },
+        "id_4096": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.id_4096\"]}"
+                }
+            }
+        },
+        "id_8192": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.id_8192\"]}"
+                }
+            }
+        },
+        "id_16384": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.id_16384\"]}"
+                }
+            }
+        },
+        "id_32768": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.id_32768\"]}"
+                }
+            }
+        },
+        "id_65536": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.id_65536\"]}"
+                }
+            }
+        },
+        "id_131072": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.id_131072\"]}"
+                }
+            }
+        },
+        "id_262144": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.id_262144\"]}"
+                }
+            }
+        },
+        "id_524288": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.id_524288\"]}"
+                }
+            }
+        },
+        "id_1048576": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.id_1048576\"]}"
+                }
+            }
+        },
+        "id_n1": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.nil_1\"]}"
+                }
+            }
+        },
+        "id_n2": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.nil_2\"]}"
+                }
+            }
+        },
+        "id_n4": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.nil_4\"]}"
+                }
+            }
+        },
+        "id_n8": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.nil_8\"]}"
+                }
+            }
+        },
+        "id_n16": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.nil_16\"]}"
+                }
+            }
+        },
+        "id_n32": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.nil_32\"]}"
+                }
+            }
+        },
+        "id_n64": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.nil_64\"]}"
+                }
+            }
+        },
+        "id_n128": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.nil_128\"]}"
+                }
+            }
+        },
+        "id_n256": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.nil_256\"]}"
+                }
+            }
+        },
+        "id_n512": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.nil_512\"]}"
+                }
+            }
+        },
+        "id_n1024": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.nil_1024\"]}"
+                }
+            }
+        },
+        "id_n2048": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.nil_2048\"]}"
+                }
+            }
+        },
+        "id_n4096": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.nil_4096\"]}"
+                }
+            }
+        },
+        "id_n8192": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.nil_8192\"]}"
+                }
+            }
+        },
+        "id_n16384": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.nil_16384\"]}"
+                }
+            }
+        },
+        "id_n32768": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.nil_32768\"]}"
+                }
+            }
+        },
+        "id_n65536": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.nil_65536\"]}"
+                }
+            }
+        },
+        "id_n131072": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.nil_131072\"]}"
+                }
+            }
+        },
+        "id_n262144": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.nil_262144\"]}"
+                }
+            }
+        },
+        "id_n524288": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.nil_524288\"]}"
+                }
+            }
+        },
+        "id_n1048576": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"bax.nil_1048576\"]}"
+                }
+            }
+        }
+    },
+    "requirements": [["id_1","id_n1"],["id_2","id_n2"],["id_4","id_n4"],["id_8","id_n8"],["id_16","id_n16"],["id_32","id_n32"],["id_64","id_n64"],["id_128","id_n128"],["id_256","id_n256"],["id_512","id_n512"],["id_1024","id_n1024"],["id_2048","id_n2048"],["id_4096","id_n4096"],["id_8192","id_n8192"],["id_16384","id_n16384"],["id_32768","id_n32768"],["id_65536","id_n65536"],["id_131072","id_n131072"],["id_262144","id_n262144"],["id_524288","id_n524288"],["id_1048576","id_n1048576"]],
+    "rewards": {
+        "function": "bax:event/player_hurt_entity"
+    }
+}

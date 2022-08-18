@@ -1,0 +1,48 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "generic.attack_damage",
+                                    "name": "random",
+                                    "slot": "mainhand",
+                                    "amount": {
+                                        "min": {
+                                            "type": "score",
+                                            "target": {
+                                                "type": "fixed",
+                                                "name": "min"
+                                            },
+                                            "score": "bax.sys"
+                                        },
+                                        "max": {
+                                            "type": "score",
+                                            "target": {
+                                                "type": "fixed",
+                                                "name": "max"
+                                            },
+                                            "score": "bax.sys"
+                                        }
+                                    },
+                                    "operation": "addition"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{bax:{get_random:true}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

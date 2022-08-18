@@ -1,0 +1,5 @@
+execute if entity @s[tag=!damage.die,type=!#damage:undeadmobs] run summon area_effect_cloud ~ ~ ~ {Tags:["damage.aec"],Radius:0.1f,Duration:6,Effects:[{Id:11,Amplifier:5,Duration:1},{Id:7,Amplifier:1,Duration:1}],Particle:"minecraft:underwater"}
+execute if entity @s[tag=!damage.die,type=#damage:undeadmobs] run summon area_effect_cloud ~ ~ ~ {Tags:["damage.aec"],Radius:0.1f,Duration:6,Effects:[{Id:11,Amplifier:5,Duration:1},{Id:6,Amplifier:1,Duration:1}],Particle:"minecraft:underwater"}
+execute if entity @s[tag=damage.die,type=!#damage:undeadmobs] run summon area_effect_cloud ~ ~ ~ {Tags:["damage.aec"],Radius:0.1f,Duration:6,Effects:[{Id:7,Amplifier:5,Duration:1}],Particle:"minecraft:underwater"}
+execute if entity @s[tag=damage.die,type=#damage:undeadmobs] run summon area_effect_cloud ~ ~ ~ {Tags:["damage.aec"],Radius:0.1f,Duration:6,Effects:[{Id:6,Amplifier:5,Duration:1}],Particle:"minecraft:underwater"}
+data modify entity @e[type=area_effect_cloud,limit=1,sort=nearest,tag=damage.aec] Owner set from entity @e[tag=damage.atker,limit=1,sort=nearest] UUID

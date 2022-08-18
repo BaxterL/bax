@@ -1,0 +1,16 @@
+execute if score #hp damage.value matches 624 run attribute @s generic.max_health base set 624
+execute if score #hp damage.value matches 625 run attribute @s generic.max_health base set 625
+execute if score #hp damage.value matches 626 run attribute @s generic.max_health base set 626
+execute if score #hp damage.value matches 627 run attribute @s generic.max_health base set 627
+execute if score #hp damage.value matches 628 run attribute @s generic.max_health base set 628
+execute if score #hp damage.value matches 629 run attribute @s generic.max_health base set 629
+execute if score #hp damage.value matches 630 run attribute @s generic.max_health base set 630
+execute if score #hp damage.value matches 631 run attribute @s generic.max_health base set 631
+execute if score #hp damage.value matches 632 run attribute @s generic.max_health base set 632
+execute if score #hp damage.value matches 633 run attribute @s generic.max_health base set 633
+execute if score #hp damage.value matches 634 run attribute @s generic.max_health base set 634
+execute if score #hp damage.value matches 635 run attribute @s generic.max_health base set 635
+execute if score #hp damage.value matches 636 run attribute @s generic.max_health base set 636
+execute if score #hp damage.value matches 637 run attribute @s generic.max_health base set 637
+execute if score #hp damage.value matches 638 run attribute @s generic.max_health base set 638
+execute if score #hp damage.value matches 639 run attribute @s generic.max_health base set 639
