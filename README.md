@@ -41,7 +41,7 @@ tag @e[tag=temp] add bax.distance_2
 function bax:lib/distance
 ```
 再比如使用盔甲架生成动画延迟修正函数
-```
+```mcfunction
 function bax:lib/rotsum
 data merge entity @e[tag=this_,type=armor_stand,limit=1] {Tags:["mytag"],ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1}}]}
 ```
