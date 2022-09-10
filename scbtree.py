@@ -6,7 +6,7 @@ import math
 #修改下面这段函数来修改执行指令
 #{player}为当前对象 {obj}为当前计分板 {score}为当前分数
 def opera(score,obj,player):
-    return (f"execute if score {player} {obj} matches {score} run say {score}")
+    return (f"execute if score {player} {obj} matches {score} run data modify storage bax:list output set from storage bax:list input[{score}]")
 
 
 def carry_bit(i):
@@ -48,8 +48,6 @@ def start(max, branch, folder, function=opera, namespace="", obj="int", player="
     os.chdir("../")
     with open(f"root.mcfunction",mode="w") as f:
         f.write(f"execute if score {player} {obj} = {player} {obj} run function {funchead}tree0_0")
-
-#def better():
 
 
 def main():
