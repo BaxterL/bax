@@ -1,0 +1,1 @@
+execute as @e if score @s bax.uid = #local bax.uid at @s run function #bax:generic/event/player_killed_entity

@@ -26,4 +26,4 @@ execute if entity @s[advancements={bax:player_killed_entity={id_1=true}}] run sc
 advancement revoke @s only bax:player_killed_entity
 
 function #bax:generic/event/pre_pke
-execute as @e if score @s bax.uid = #local bax.uid at @s run function #bax:generic/event/player_killed_entity
+schedule function bax:event/delay_find 1t append

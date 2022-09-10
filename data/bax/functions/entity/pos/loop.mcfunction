@@ -1,5 +1,5 @@
 #> bax:entity/pos/loop -> lib
-#input _loop_ 
+#input _loop_ -> minecraft:tick
 #after generic/score
 scoreboard players add #max bax.eid 0
 scoreboard players set #old bax.eid 0
