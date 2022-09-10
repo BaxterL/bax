@@ -31,7 +31,7 @@
 本前置会自己初始化，卸载请执行"bax:generic/uninstall"
 有些模块需要开启本函数的循环才会开始执行，所以推荐将"bax:main"函数加入循环
 
-#### 基本前置
+### 基本前置
 
 functions/lib 下有非常多的前置函数供你使用
 比如获取两实体的距离可以使用distance前置函数,返回值是100倍
@@ -47,19 +47,19 @@ data merge entity @e[tag=this_,type=armor_stand,limit=1] {Tags:["mytag"],ArmorIt
 ```
 其他的就看函数注释吧
 
-#### 事件模块
+### 事件模块
 
 tags/functions/event 实体/玩家 攻击/击杀 事件检测
 使用前需要对实体和玩家进行初始化(function bax:event/init)，如果需要重置请对实体执行(function bax:event/reset)
 
 需要注意事件检测的标签函数中有个扇形检测的函数(sector.json)
 
-#### 实体模块
+### 实体模块
 
 functions/entity 包含uaec循环、训练假人、玩家属性调整
 你可以给aec添加"uaec"的标签，他会实时更新自己nbt Air的值(需要启用该前置)
 
-#### 杂七杂八
+### 杂七杂八
 
 functions/list 是列表操作 functions/func 中有一些杂七杂八的函数，比如史莱姆(没有kill)挤压等等，你可以自己摸索
 
