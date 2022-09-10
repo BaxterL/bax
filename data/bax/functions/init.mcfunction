@@ -1,7 +1,7 @@
 scoreboard objectives add bax.sys dummy
-##########
-#  init  #
-##########
+############
+#  init  #  By Wangzj_Baxter
+############
 scoreboard players set $version bax.sys 110
 execute if data storage bax:data version run function bax:func/version/bax_lib
 execute store result storage bax:data version int 1 run scoreboard players get $version bax.sys
