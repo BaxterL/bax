@@ -21,10 +21,11 @@ scoreboard objectives add bax.timer dummy
 #scoreboard objectives add bax.sneak minecraft.custom:minecraft.sneak_time
 scoreboard objectives add bax.ani dummy
 scoreboard objectives add bax.list dummy
+scoreboard objectives add bax.db dummy
 
 data modify storage bax:list {} set value {input:[],output:[]}
 data modify storage bax:entity source set value [{i:0}]
-
+data modify storage bax:db {} set value {data:[]}
 
 function #bax:init
 

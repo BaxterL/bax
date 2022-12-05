@@ -101,6 +101,21 @@ def get_ogg(text,num):
         f.write(res)
         f.flush()
 
+def temp():
+    my=18
+    slot=27
+    for i in range(27-18):
+        print("item replace block 0 319 -1 container.0 with shears{bax_a:1}")
+        print(f"data modify block 0 319 -1 Items[0].id set from storage psp:result self.inv[{{Slot:{slot}b}}].id")
+        print(f"data modify block 0 319 -1 Items[0].Count set from storage psp:result self.inv[{{Slot:{slot}b}}].Count")
+        print(f"data modify block 0 319 -1 Items[0].tag set from storage psp:result self.inv[{{Slot:{slot}b}}].tag")
+        print(f"execute if data block 0 319 -1 Items[{{id:\"shears\",tag:{{bax_a:1}}}}] run item replace block 0 319 -1 container.0 with air")
+        print(f"item replace entity @s inventory.{my} from block 0 319 -1 container.0")
+        my+=1
+        slot+=1
+
+
+temp()
 
 #input()
 #jiexi()

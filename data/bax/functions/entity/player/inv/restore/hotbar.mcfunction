@@ -1,0 +1,19 @@
+item replace block 0 319 -1 container.9 with air
+item replace block 0 319 -1 container.10 with air
+item replace block 0 319 -1 container.11 with air
+item replace block 0 319 -1 container.12 with air
+item replace block 0 319 -1 container.13 with air
+item replace block 0 319 -1 container.14 with air
+item replace block 0 319 -1 container.15 with air
+item replace block 0 319 -1 container.16 with air
+item replace block 0 319 -1 container.17 with air
+item replace block 0 319 -1 container.18 with air
+item replace block 0 319 -1 container.19 with air
+item replace block 0 319 -1 container.20 with air
+item replace block 0 319 -1 container.21 with air
+item replace block 0 319 -1 container.22 with air
+item replace block 0 319 -1 container.23 with air
+item replace block 0 319 -1 container.24 with air
+item replace block 0 319 -1 container.25 with air
+item replace block 0 319 -1 container.26 with air
+loot replace entity @s hotbar.0 mine 0 319 -1 minecraft:command_block{drop_contents:true}
