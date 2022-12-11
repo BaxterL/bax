@@ -125,7 +125,23 @@ function bax:entity/player/inv/restore/all
 
 ## 数据包结构
 
-懒
+### 事件模块
+
+tags/functions/event 实体/玩家 攻击/击杀 事件检测
+使用前需要对实体和玩家进行初始化(function bax:event/init)，如果需要重置请对实体执行(function bax:event/reset)
+
+需要注意事件检测的标签函数中有个扇形检测的函数(sector.json)
+
+### 实体模块
+
+functions/entity 包含uaec循环、训练假人、玩家属性调整
+你可以给aec添加"uaec"的标签，他会实时更新自己nbt Air的值(需要启用该前置)
+
+### 杂七杂八
+
+functions/list 是列表操作 functions/func 中有一些杂七杂八的函数，比如史莱姆(没有kill)挤压等等，你可以自己摸索
+
+其中有个damage函数需要启用我的另一个自定义伤害前置，否则不会生效
 
 ## 更新
 
@@ -133,3 +149,4 @@ function bax:entity/player/inv/restore/all
 - 更新了玩家背包操作
 - 更新了玩家数据库
 - 为1.19.3的limit优化修复
+- README修改,把模块相关的内容搬到这里了

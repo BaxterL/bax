@@ -1,10 +1,12 @@
 '''
 我的一些杂七杂八的小脚本,不用管,这些基本都是自用的
 
+#> jiexi()
 使游戏输出 OUTPUT:[内容]
 执行以下代码开始处理内容并写入output
 可以对input进行更改
 
+#> input()
 请将本脚本放置于数据包目录下,也就是跟data文件夹的同级目录下
 data/..
 this.py
@@ -21,7 +23,7 @@ from pydub import AudioSegment
 
 Global_dialogue = 1
 Global_dtype = "a"
-Global_respath = r"D:wangzj\.minecraft\versions\1.19.2-Fabric 0.14.9\resourcepacks\xiaobai\assets\bax"
+Global_respath = r"编辑游戏目录\resourcepacks\xiaobai\assets\bax"
 
 def xyz(content: str):
     text=content.split("|")
