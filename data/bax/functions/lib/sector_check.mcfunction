@@ -5,8 +5,8 @@ scoreboard players operation #aim bax.rot = $angle bax.rot
 scoreboard players operation #aim bax.rot *= 5000 int
 
 summon marker ~ ~ ~ {Tags:["bax.rotation"]}
-tp @e[tag=bax.rotation] @s
-execute as @e[tag=bax.rotation] store result score @s bax.rot run data get entity @s Rotation[0] 10000
+tp @e[tag=bax.rotation,type=marker,limit=1] @s
+execute as @e[tag=bax.rotation,type=marker,limit=1] store result score @s bax.rot run data get entity @s Rotation[0] 10000
 
 execute as @e[tag=bax.detect] run function bax:lib/zzz/sec_r
 

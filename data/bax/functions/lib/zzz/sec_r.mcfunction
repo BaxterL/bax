@@ -1,8 +1,8 @@
 tag @s add bax.temp
 
-execute as @e[tag=bax.rotation,type=marker] facing entity @e[tag=bax.temp] feet run tp @s ~ ~ ~ ~ ~
+execute as @e[tag=bax.rotation,type=marker,limit=1] facing entity @e[tag=bax.temp] feet run tp @s ~ ~ ~ ~ ~
 execute store result score @s bax.rot run data get entity @e[tag=bax.rotation,limit=1,type=marker] Rotation[0] 10000
-scoreboard players operation @s bax.rot -= @e[tag=bax.rotation,type=marker] bax.rot
+scoreboard players operation @s bax.rot -= @e[tag=bax.rotation,type=marker,limit=1] bax.rot
 
 execute if score @s bax.rot matches ..0 run scoreboard players operation @s bax.rot *= -1 int
 

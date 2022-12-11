@@ -111,10 +111,25 @@ tag @e remove bax.target
 实际使用`function bax:func/ride/loop`
 输出在bax.temp上 w a s d分数为1则是按下
 
+### 玩家背包操作
+```
+#必须进行初始化设置!一个玩家只用执行一次
+function bax:entity/db/self
+#备份当前玩家背包
+function bax:entity/player/inv/backup
+#恢复玩家所有备份物品
+#init必须执行,需要恢复什么内容就执行需要恢复的子函数
+function bax:entity/player/inv/restore/_init_
+function bax:entity/player/inv/restore/all
+```
+
 ## 数据包结构
 
 懒
 
 ## 更新
 
-懒
+2022-12 
+- 更新了玩家背包操作
+- 更新了玩家数据库
+- 为1.19.3的limit优化修复
