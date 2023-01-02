@@ -1,6 +1,7 @@
-function #bax:lib
-execute store result score #lib bax.sys run data get storage bax:data lib[{pack:"bax_lib"}].version
-execute if score #lib bax.sys > $version bax.sys run function bax:func/version/zzz/b
-execute if score #lib bax.sys <= $version bax.sys run data remove storage bax:data lib[{pack:"bax_lib"}]
+#注册包
+##data modify storage bax:data packs append value {name:"bax_lib",version:100,need:110}
+data modify storage bax:data temp set from storage bax:data packs
 
-execute if data storage bax:data lib[] run function bax:func/version/zzz/a
+function bax:func/version/zzz/a
+
+data remove storage bax:data temp

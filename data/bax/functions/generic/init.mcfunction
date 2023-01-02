@@ -33,10 +33,13 @@ data modify storage bax:list {} set value {input:[],output:[]}
 data modify storage bax:entity source set value [{i:0}]
 data modify storage bax:db {} set value {data:[]}
 
+#设置
+scoreboard players set $bc bax.sys 0
+
 function #bax:init
 
-#need lib
-execute if data storage bax:data lib[] run function bax:func/version/need
+#其他包的注册
+execute if data storage bax:data packs[] run function bax:func/version/need
 
 #主循环
 function bax:main
