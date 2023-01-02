@@ -1,0 +1,189 @@
+{
+  "criteria": {
+    "slot_0": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{SelectedItemSlot:0}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "slot_1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{SelectedItemSlot:1}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "slot_2": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{SelectedItemSlot:2}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "slot_3": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{SelectedItemSlot:3}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "slot_4": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{SelectedItemSlot:4}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "slot_5": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{SelectedItemSlot:5}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "slot_6": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{SelectedItemSlot:6}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "slot_7": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{SelectedItemSlot:7}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "slot_8": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{SelectedItemSlot:8}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "slot_0"
+    ],
+    [
+      "slot_1"
+    ],
+    [
+      "slot_2"
+    ],
+    [
+      "slot_3"
+    ],
+    [
+      "slot_4"
+    ],
+    [
+      "slot_5"
+    ],
+    [
+      "slot_6"
+    ],
+    [
+      "slot_7"
+    ],
+    [
+      "slot_8"
+    ]
+  ],
+  "rewards": {
+    "function": "namespace:slot_change"
+  }
+}

@@ -3,6 +3,7 @@ forceload add -1 -1 1 1
 scoreboard objectives add int dummy
 scoreboard players set 2 int 2
 scoreboard players set 4 int 4
+scoreboard players set 9 int 9
 scoreboard players set -1 int -1
 scoreboard players set 360 int 360
 scoreboard players set 100 int 100
@@ -24,6 +25,9 @@ scoreboard objectives add bax.timer dummy
 scoreboard objectives add bax.ani dummy
 scoreboard objectives add bax.list dummy
 scoreboard objectives add bax.db dummy
+scoreboard objectives add bax.scroll dummy
+scoreboard objectives add bax.slot dummy
+scoreboard objectives add bax.last_slot dummy
 
 data modify storage bax:list {} set value {input:[],output:[]}
 data modify storage bax:entity source set value [{i:0}]
@@ -35,4 +39,4 @@ function #bax:init
 execute if data storage bax:data lib[] run function bax:func/version/need
 
 #主循环
-#function bax:main
+function bax:main

@@ -112,6 +112,7 @@ tag @e remove bax.target
 输出在bax.temp上 w a s d分数为1则是按下
 
 ### 玩家背包操作
+
 ```
 #必须进行初始化设置!一个玩家只用执行一次
 function bax:entity/db/self
@@ -122,6 +123,12 @@ function bax:entity/player/inv/backup
 function bax:entity/player/inv/restore/_init_
 function bax:entity/player/inv/restore/all
 ```
+
+### 鼠标滚轮检测
+
+初始化bax:func/scroll/before
+循环执行`execute as @a run bax:func/scroll/loop`
+结果从bax.scroll拿,1是向上,-1是向下,0是未操作
 
 ## 数据包结构
 
@@ -144,6 +151,10 @@ functions/list 是列表操作 functions/func 中有一些杂七杂八的函数�
 其中有个damage函数需要启用我的另一个自定义伤害前置，否则不会生效
 
 ## 更新
+
+2023-1
+- 更新了鼠标滚轮检测
+- 版本号改为140,主循环默认启用
 
 2022-12 
 - 更新懒人单函数打延迟生成器
