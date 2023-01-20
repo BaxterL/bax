@@ -31,7 +31,7 @@ scoreboard objectives add bax.last_slot dummy
 
 data modify storage bax:list {} set value {input:[],output:[]}
 data modify storage bax:entity source set value [{i:0}]
-data modify storage bax:db {} set value {data:[]}
+data modify storage bax:db data set value [{root:true}]
 
 #设置
 scoreboard players set $bc bax.sys 0

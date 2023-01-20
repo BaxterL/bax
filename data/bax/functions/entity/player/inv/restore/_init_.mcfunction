@@ -3,4 +3,4 @@
 #input @player
 setblock 0 319 -1 yellow_shulker_box
 function bax:entity/db/self
-data modify block 0 319 -1 Items set from storage bax:db self
+data modify block 0 319 -1 Items set from storage bax:db self.inv
