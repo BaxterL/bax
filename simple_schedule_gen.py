@@ -85,6 +85,7 @@ def run(namespace="bax",folder="func/zzz"):
                 for item in items:
                     f.write(f"{item}\n")
         with open("root.mcfunction","a") as f:
+            f.write(f"scoreboard players operation .self {obj} = @s {obj}\n")
             for index in range(count):
                 f.write(f"execute if score @s {obj} matches {delay[index]} run function {namespace}:{folder}/{index}\n")
 
