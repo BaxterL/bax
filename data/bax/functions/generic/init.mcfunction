@@ -4,10 +4,14 @@ scoreboard objectives add int dummy
 scoreboard players set 2 int 2
 scoreboard players set 4 int 4
 scoreboard players set 9 int 9
+scoreboard players set 10 int 10
 scoreboard players set -1 int -1
 scoreboard players set 360 int 360
 scoreboard players set 100 int 100
+scoreboard players set 119 int 119
 scoreboard players set 1000 int 1000
+scoreboard players set 4214 int 4214
+scoreboard players set 50436 int 50436
 scoreboard players set -46496 int -46496
 scoreboard players set 100000 int 100000
 scoreboard players set 10000 int 10000

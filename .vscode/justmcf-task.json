@@ -1,0 +1,13 @@
+[
+  {
+    "label": "Init Project",
+    "task": "mcf init",
+    "sourcePath": "."
+  },
+  {
+    "label": "Build Project",
+    "task": "mcf build",
+    "sourcePath": ".",
+    "targetPath": "..\\bax_lib_output\\"
+  }
+]

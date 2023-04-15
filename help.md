@@ -130,6 +130,12 @@ function bax:entity/player/inv/restore/all
 循环执行`execute as @a run bax:func/scroll/loop`
 结果从bax.scroll拿,1是向上,-1是向下,0是未操作
 
+### 球体及方形（方块）遍历
+
+以球体中心为执行对象,然后输入半径r int
+以球心位置执行`bax:func/blocks/tsphere/do`来遍历球形区域
+以某一顶点执行`bax:func/blocks/tcuboid/do`来遍历长发体区域，输入dx,dy,dz int
+
 ## 数据包结构
 
 ### 事件模块
@@ -164,3 +170,13 @@ functions/list 是列表操作 functions/func 中有一些杂七杂八的函数�
 - 更新了玩家数据库
 - 为1.19.3的limit优化修复
 - README修改,把模块相关的内容搬到这里了
+
+2023-4
+- 之前更新了一点小玩意修修补补我也忘记了是啥了
+- 这次也进行了一些小修小补
+- 更新常用的两个数学函数，存储和获取math_marker坐标
+- 更新了目前最先进最快的开方
+- 基于新开方更新了获取两点距离
+- 更新了球体遍历和方形遍历
+- 版本号更新为150
+- 删除lib里面的rotsum，简直没用还占储存

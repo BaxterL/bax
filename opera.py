@@ -117,7 +117,7 @@ def temp():
         slot+=1
 
 
-temp()
+#temp()
 
 #input()
 #jiexi()

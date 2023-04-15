@@ -20,14 +20,14 @@ execute if score #temp1 bax.temp matches ..-1 run scoreboard players operation #
 scoreboard players operation result bax.sys += #temp1 bax.temp
 
 function bax:lib/math/check_math_marker
-execute as @e[type=marker,tag=bax.math] at @e[tag=bax.distance_1] facing entity @e[tag=bax.distance_2,limit=1] feet positioned 0.0 0.0 0.0 positioned ^ ^ ^1 run tp @s ~ ~ ~
+execute as @e[type=marker,tag=math_marker] at @e[tag=bax.distance_1] facing entity @e[tag=bax.distance_2,limit=1] feet positioned 0.0 0.0 0.0 positioned ^ ^ ^1 run tp @s ~ ~ ~
 
-execute store result score #temp1 bax.temp run data get entity @e[type=marker,tag=bax.math,limit=1] Pos[0] 1000
+execute store result score #temp1 bax.temp run data get entity @e[type=marker,tag=math_marker,limit=1] Pos[0] 1000
 execute if score #temp1 bax.temp matches ..-1 run scoreboard players operation #temp1 bax.temp *= -1 int
-execute store result score #temp2 bax.temp run data get entity @e[type=marker,tag=bax.math,limit=1] Pos[1] 1000
+execute store result score #temp2 bax.temp run data get entity @e[type=marker,tag=math_marker,limit=1] Pos[1] 1000
 execute if score #temp2 bax.temp matches ..-1 run scoreboard players operation #temp2 bax.temp *= -1 int
 scoreboard players operation #temp1 bax.temp += #temp2 bax.temp
-execute store result score #temp2 bax.temp run data get entity @e[type=marker,tag=bax.math,limit=1] Pos[2] 1000
+execute store result score #temp2 bax.temp run data get entity @e[type=marker,tag=math_marker,limit=1] Pos[2] 1000
 execute if score #temp2 bax.temp matches ..-1 run scoreboard players operation #temp2 bax.temp *= -1 int
 scoreboard players operation #temp1 bax.temp += #temp2 bax.temp
 
