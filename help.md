@@ -180,3 +180,7 @@ functions/list 是列表操作 functions/func 中有一些杂七杂八的函数�
 - 更新了球体遍历和方形遍历
 - 版本号更新为150
 - 删除lib里面的rotsum，简直没用还占储存
+
+2023-5
+- 删除list,将全部功能移入至fast_list数据包中
+- Damage1.2版本数据包移除

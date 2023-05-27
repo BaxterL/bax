@@ -6,7 +6,7 @@ import math
 #修改下面这段函数来修改执行指令
 #{player}为当前对象 {obj}为当前计分板 {score}为当前分数
 def opera(score,obj,player):
-    return (f"execute if score {player} {obj} matches {score} run data modify storage bax:list output set from storage bax:list input[{score}]")
+    return (f"data modify storage bax:list output set from storage bax:list input[{score}]\nsay {player} on {obj} is {score}")
 
 
 def carry_bit(i):
@@ -22,7 +22,7 @@ def strint(num):
 def start(max, branch, folder, function=opera, namespace="", obj="int", player="#index"):
     if (branch < 2):
         branch = 2
-    os.makedirs(f"{folder}/zzz", exist_ok=True)
+    os.makedirs(f"{folder}/zzz/do", exist_ok=True)
     os.chdir(f"{folder}/zzz")
     if (namespace != ""):
         funchead = f"{namespace}:{folder}/zzz/"
@@ -35,7 +35,7 @@ def start(max, branch, folder, function=opera, namespace="", obj="int", player="
             for now_point in range(branch**now_row):
                 with open(f"tree{now_row}_{now_point}.mcfunction",mode="a") as f:
                     for now_br in range(branch):
-                        f.write(function(score,obj,player)+"\n")
+                        f.write(f"execute if score {player} {obj} matches {score} run function {funchead}do/{score}"+"\n")
                         score=score+1
         else:
             left=1
@@ -45,6 +45,9 @@ def start(max, branch, folder, function=opera, namespace="", obj="int", player="
                         right=branch**(row-now_row-1)*(now_br+now_point*branch+1)
                         f.write(f"execute if score {player} {obj} matches {strint(left)}..{strint(right)} run function {funchead}tree{strint(now_row+1)}_{strint(now_br+now_point*branch)}\n")
                         left=right+1
+    for score in range(1,max+1):
+        with open(f"do/{score}.mcfunction",mode="a") as f:
+            f.write(function(score,obj,player))
     os.chdir("../")
     with open(f"root.mcfunction",mode="w") as f:
         f.write(f"execute if score {player} {obj} = {player} {obj} run function {funchead}tree0_0")
