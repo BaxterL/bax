@@ -1,0 +1,1 @@
+execute as @e[tag=tal.a_star.node__] at @s run function bax:func/a_star/3d/end/tp

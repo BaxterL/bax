@@ -1,0 +1,1 @@
+execute as @e[limit=1,tag=bax.st_self] at @s if entity @e[tag=bax.st_target] run function bax:entity/smooth_tp/run/execute_
